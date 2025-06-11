@@ -5,7 +5,7 @@ body * {
 }
 /* On applique un gris plus clair sur les paragraphes */
 p {
-   color: #313332;
+   color: #313331;
 }
 /* La classe 'hover-effect' permettra de créer un effet de zoom quand l'on passera la souris par dessus les elements images enfants  */
 .hover-effect img {
