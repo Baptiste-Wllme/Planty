@@ -1,18 +1,80 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
 /* Import de la font Roboto depuis Google Fonts et on l'applique sur tous les éléments de la page */
 body * {
-   font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto', sans-serif;
 }
+
 /* On applique un gris plus clair sur les paragraphes */
 p {
-   color: #313331;
+    color: #313332;
 }
 /* La classe 'hover-effect' permettra de créer un effet de zoom quand l'on passera la souris par dessus les elements images enfants  */
 .hover-effect img {
-   transition: all 0.33s ease-in-out;
-   transform: scale(1) translateY(0px);
+    transition: all 0.33s ease-in-out;
+    transform: scale(1) translateY(0px);
 }
 .hover-effect img:hover {
-   transition: all 0.33s ease-in-out;
-   transform: scale(1.05) translateY(-10px);
+    transition: all 0.33s ease-in-out;
+    transform: scale(1.05) translateY(-10px);
 }
+
+
+/* HEADER */
+
+
+#site-header.sticky-top {
+    position: sticky;
+    z-index: 10;
+    top: 0;
+    background-color: #00ff80;
+}
+
+.ImgLogo {
+    width: 200px;
+    height: 20px;
+}
+
+#header {
+    display: flex;
+    flex-direction: row;
+    padding-bottom: 30px;
+    justify-content: space-between;
+}
+
+#branding {
+    align-self: center;
+    justify-self: center;
+    padding-left: 30px;
+}
+
+/* LIENS DU MENU */ 
+li.menu-item a {
+    color: #000000 ;
+    display: inline-block;
+    padding: 30px 25px;
+    background-color: #ffffff;
+    text-align: center;
+    text-decoration: none;
+}
+
+li.menu-item.current-menu-item a {
+    color: #000000 ;
+    background-color: #ffffff;
+    
+}
+
+#menu-item-27 a {
+    color: white !important;
+    background-color:#DC9F96;
+}
+
+li.menu-item-27 a {
+    background-color: #DC9F96;
+}
+
+#menu-navigation {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+
