@@ -75,6 +75,17 @@ li.menu-item-27 a {
 #menu-navigation {
     display: flex;
     flex-direction: row;
-    gap: 20px;
+    
 }
 
+.menu-item a:hover {
+    background-color: #C02E44;
+    color: white;
+}
+
+/* FOOTER */
+
+#site-footer p {
+    text-align: center;
+    padding-top: 20px;
+}
