@@ -37,7 +37,7 @@ p {
 #header {
     display: flex;
     flex-direction: row;
-    padding-bottom: 30px;
+    
     justify-content: space-between;
 }
 
@@ -45,6 +45,14 @@ p {
     align-self: center;
     justify-self: center;
     padding-left: 30px;
+}
+
+.header h1 {
+    display: none !important;
+}
+
+.post-edit-link {
+    display: none;
 }
 
 /* LIENS DU MENU */ 
@@ -61,6 +69,7 @@ li.menu-item.current-menu-item a {
     color: #000000 ;
     background-color: #ffffff;
     
+    
 }
 
 #menu-item-27 a {
@@ -70,7 +79,11 @@ li.menu-item.current-menu-item a {
 
 li.menu-item-27 a {
     background-color: #DC9F96;
+    padding-left: 50px;
+    padding-right: 50px;
 }
+
+
 
 #menu-navigation {
     display: flex;
@@ -79,7 +92,7 @@ li.menu-item-27 a {
 }
 
 .menu-item a:hover {
-    background-color: #C02E44;
+    background-color: #C02E44 !important;
     color: white;
 }
 
@@ -88,4 +101,9 @@ li.menu-item-27 a {
 #site-footer p {
     text-align: center;
     padding-top: 20px;
+}
+
+.comments,
+#respond {
+    display: none;
 }

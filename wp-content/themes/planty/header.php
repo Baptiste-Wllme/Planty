@@ -21,7 +21,8 @@
 <header id="header" role="banner" class="sticky-top">
     <div id="branding">
         <div id="site-title" itemprop="publisher" itemscope itemtype="https://schema.org/Organization">
-            <img src="wp-content/themes/planty/img/Logo.png" class="ImgLogo" alt="Logo Planty" />
+            <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/Logo.png" class="ImgLogo" alt="Logo Planty" />
+
         </div>
     </div>
     <nav id="menu" role="navigation" itemscope itemtype="https://schema.org/SiteNavigationElement">
