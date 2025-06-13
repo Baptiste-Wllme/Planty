@@ -107,3 +107,7 @@ li.menu-item-27 a {
 #respond {
     display: none;
 }
+
+.wpforms-submit {
+  display: none !important;
+}
