@@ -21,8 +21,9 @@
 <header id="header" role="banner" class="sticky-top">
     <div id="branding">
         <div id="site-title" itemprop="publisher" itemscope itemtype="https://schema.org/Organization">
-            <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/Logo.png" class="ImgLogo" alt="Logo Planty" />
-
+            <a href="<?php echo esc_url(home_url('/')); ?>">
+                <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/Logo.png" class="ImgLogo" alt="Logo Planty" />
+            </a>
         </div>
     </div>
     <nav id="menu" role="navigation" itemscope itemtype="https://schema.org/SiteNavigationElement">
