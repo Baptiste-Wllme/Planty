@@ -1,22 +1,11 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
-/* Import de la font Roboto depuis Google Fonts et on l'applique sur tous les éléments de la page */
-body * {
-    font-family: 'Roboto', sans-serif;
+@import url('https://fonts.googleapis.com/css2?family=Syne:wght@400;600;700&display=swap');
+
+body {
+  font-family: 'Syne', sans-serif !important;
 }
 
-/* On applique un gris plus clair sur les paragraphes */
-p {
-    color: #313332;
-}
-/* La classe 'hover-effect' permettra de créer un effet de zoom quand l'on passera la souris par dessus les elements images enfants  */
-.hover-effect img {
-    transition: all 0.33s ease-in-out;
-    transform: scale(1) translateY(0px);
-}
-.hover-effect img:hover {
-    transition: all 0.33s ease-in-out;
-    transform: scale(1.05) translateY(-10px);
-}
+
+
 
 
 /* HEADER */
@@ -101,6 +90,7 @@ li.menu-item-27 a {
 #site-footer p {
     text-align: center;
     padding-top: 20px;
+    padding-bottom: 200px;
 }
 
 .comments,
