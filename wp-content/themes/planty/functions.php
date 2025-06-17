@@ -12,7 +12,7 @@ function ajouter_lien_admin_si_connecte($items, $args) {
     
     if (is_user_logged_in() && $args->theme_location === 'main-menu') { // Nom du menu concerné 
         $admin_url = admin_url();                                       // URL du tableau de bord
-        $items .= '<li class="menu-item"><a href="' . esc_url($admin_url) . '">Admin</a></li>';
+        $items .= '<li class="menu-item"><a href="' . esc_url($admin_url) . '">Admin</a></li>'; // 
     }
     return $items;
 }

@@ -1,5 +1,7 @@
 <footer id="site-footer" class="header-footer-group">
-              <p>Mention légales</p>
+         <a href="<?php echo esc_url(home_url('/')); ?>">     
+         <p>Mention légales</p>
+         </a>
 </footer>
 
       <?php wp_footer(); ?>

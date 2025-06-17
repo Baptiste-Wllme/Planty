@@ -98,3 +98,14 @@ li.menu-item-27 a {
     display: none;
 }
 
+.wpforms-submit {
+  display: block;
+  margin: 0 auto;
+  justify-self: center;
+}
+
+
+.wpforms-submit:hover {
+    background-color: #C02E44 !important;
+    color: white;
+}
