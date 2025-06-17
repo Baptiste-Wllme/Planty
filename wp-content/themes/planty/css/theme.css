@@ -115,7 +115,6 @@ li#menu-item-27 {
 }
 
 .formulaire-wrapper {
-  background: #3d8b3d;
   padding: 2rem;
   border-radius: 10px;
   color: white;
@@ -125,13 +124,22 @@ li#menu-item-27 {
 .quantite-ligne {
   display: flex;
   justify-content: center;
-  gap: 1rem;
-  margin-bottom: 1rem;
+  
+}
+
+.quantite-ligne p {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 100px;
 }
 
 .quantite-ligne input {
-  width: 50px;
   text-align: center;
+}
+
+.quantite-ligne span {
+    width: 77px;
 }
 
 .formulaire-grid {
@@ -139,7 +147,7 @@ li#menu-item-27 {
   justify-content: space-between;
   gap: 2rem;
   margin-top: 1rem;
-  border-top: 1px solid #ffffff60;
+  border-top: 2px solid #ffffff;
   padding-top: 1rem;
 }
 
