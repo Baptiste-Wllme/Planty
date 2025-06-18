@@ -162,7 +162,7 @@ li#menu-item-27 {
 .wpcf7 input[type="text"],
 .wpcf7 input[type="email"],
 .wpcf7 input[type="number"] {
-  width: 100%;
+  width: 80%;
   padding: 0.7rem;
   margin-bottom: 1rem;
   border-radius: 6px;
