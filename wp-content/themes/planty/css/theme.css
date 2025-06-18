@@ -114,6 +114,8 @@ li#menu-item-27 {
     order: 3;
 }
 
+/* FORM */
+
 .formulaire-wrapper {
   padding: 2rem;
   border-radius: 10px;
@@ -130,8 +132,8 @@ li#menu-item-27 {
 .quantite-ligne p {
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
-    gap: 100px;
+    justify-content: space-around;
+    gap: 95px;
 }
 
 .quantite-ligne input {
@@ -139,7 +141,7 @@ li#menu-item-27 {
 }
 
 .quantite-ligne span {
-    width: 77px;
+    width: 100px;
 }
 
 .formulaire-grid {
@@ -153,18 +155,35 @@ li#menu-item-27 {
 
 .bloc-infos, .bloc-livraison {
   flex: 1;
+  
 }
 
 .bloc-infos h3, .bloc-livraison h3 {
-  margin-bottom: 1rem;
+  margin-bottom: 35px;
+  margin-top: 35px;
+  font-weight: 700;
+  font-size: 30px;
+}
+
+.bloc-infos h4, .bloc-livraison h4 {
+  padding-bottom: 15px;
+}
+
+.separator {
+  border-right: solid 1px white;
+  height: 470px;
+  align-self: center;
+  justify-self: center;
+  padding: 0px;
+  margin: 0 2rem;
 }
 
 .wpcf7 input[type="text"],
 .wpcf7 input[type="email"],
 .wpcf7 input[type="number"] {
   width: 80%;
-  padding: 0.7rem;
-  margin-bottom: 1rem;
+  padding: 25px;
+  margin-bottom: 50px;
   border-radius: 6px;
   border: none;
   box-sizing: border-box;
@@ -175,17 +194,19 @@ li#menu-item-27 {
   margin-top: 1.5rem;
 }
 
+.wpcf7-spinner {
+  display: none;
+}
+
 .wpcf7 input[type="submit"] {
   background: #e5b7af;
   color: white;
-  padding: 0.8rem 2rem;
+  padding: 20px 50px;
   border: none;
   border-radius: 6px;
   cursor: pointer;
   font-weight: bold;
 }
 
-.wpcf7 input[type="submit"]:hover {
-  opacity: 0.8;
-}
+
 
