@@ -181,7 +181,7 @@ li#menu-item-27 {
 .wpcf7 input[type="text"],
 .wpcf7 input[type="email"],
 .wpcf7 input[type="number"] {
-  width: 80%;
+  width: 98%;
   padding: 25px;
   margin-bottom: 50px;
   border-radius: 6px;
@@ -208,5 +208,72 @@ li#menu-item-27 {
   font-weight: bold;
 }
 
+/*  Format tablette (entre 768px et 1024px) */
+@media (max-width: 1024px) {
+  .formulaire-grid {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .separator {
+    display: none; /* Cacher la barre verticale */
+  }
+
+  .bloc-infos, .bloc-livraison {
+    width: 100%;
+  }
+
+  .quantite-ligne {
+    flex-wrap: wrap;
+    gap: 1rem;
+  }
+}
+
+/*  Format mobile (moins de 768px) */
+@media (max-width: 767px) {
+  .formulaire-wrapper {
+    padding: 1rem;
+  }
+
+  .formulaire-grid {
+    flex-direction: column;
+    gap: 1rem;
+    margin-top: 1rem;
+    padding-top: 1rem;
+    border-top: 1px solid white;
+  }
+
+  .separator {
+    display: none;
+  }
+
+  .bloc-infos h3, .bloc-livraison h3 {
+    font-size: 24px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+  }
+
+  .wpcf7 input[type="text"],
+  .wpcf7 input[type="email"],
+  .wpcf7 input[type="number"] {
+    width: 100%;
+    padding: 15px;
+    margin-bottom: 30px;
+  }
+
+  .quantite-ligne {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .bouton-commande {
+    margin-top: 2rem;
+  }
+
+  .wpcf7 input[type="submit"] {
+    padding: 15px 30px;
+    font-size: 16px;
+  }
+}
 
 
