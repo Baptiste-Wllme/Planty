@@ -209,9 +209,11 @@ li#menu-item-27 {
   font-weight: bold;
 }
 
+
+
+
 /*  Format tablette (entre 768px et 1024px) */
 @media (max-width: 1024px) {
-  
   
   
   .formulaire-grid {
@@ -248,6 +250,10 @@ li#menu-item-27 {
     width: 100%;
   }
 }
+
+
+
+
 
 
 /*  Format mobile (moins de 768px) */
@@ -289,7 +295,11 @@ li#menu-item-27 {
     width: 175px;
   }
 
+  li.menu-item-27 a {
+    padding-right: 35px;
+  }
   
+
 
   .img_user {
     display: flex;
